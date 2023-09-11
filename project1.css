@@ -1,0 +1,375 @@
+/* page1-css-start*/
+* {
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+.page1 {
+    position: relative;
+    background-color: deepskyblue;
+    height: 867px;
+}
+
+.header h2 {
+    position: absolute;
+    left: 40px;
+    top: 5px;
+    color: white;
+    font-size: 35px;
+}
+
+.header button {
+    position: absolute;
+    right: 510px;
+    top: 25px;
+    border-radius: 20px;
+    height: 35px;
+    width: 130px;
+    font-family: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.header a {
+    position: absolute;
+    right: 340px;
+    top: 28px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.header .fa-solid {
+    position: absolute;
+    right: 220px;
+    top: 35px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.header .img2 {
+    position: absolute;
+    right: 90px;
+    top: 35px;
+    cursor: pointer;
+}
+
+.div1 h1 {
+    position: absolute;
+    top: 310px;
+    left: 123px;
+    font-size: 45px;
+    color: white;
+}
+
+.div1 p {
+    position: absolute;
+    top: 510px;
+    left: 122px;
+    color: white;
+}
+
+.div1 button {
+    position: absolute;
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    background-color: deepskyblue;
+    border: 6px solid white;
+    top: 765px;
+    left: 100px;
+}
+
+.div2 img {
+    position: absolute;
+    left: 612px;
+    width: 835px;
+    height: 600px;
+    top: 200px;
+}
+
+/* page1-css-end */
+
+/* page2-css-starts*/
+.section2 {
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.section2 img {
+    width: 650px;
+    height: 410px;
+    margin-top: 70px;
+}
+
+.section2 h2 {
+    font-size: 45px;
+    right: 350px;
+    margin-left: 100px;
+    margin-top: 130px;
+}
+
+.section2 span {
+    color: deepskyblue;
+    font-size: 45px;
+}
+
+.section2 p {
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.section2 button {
+    border: 5px solid deepskyblue;
+    background-color: white;
+    border-radius: 50px;
+    width: 145px;
+    height: 45px;
+    margin: 89px 0 0px 520px;
+    cursor: pointer;
+}
+
+/* page2-css-ends*/
+
+/* page3-css-starts */
+.section3 h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.choose {
+    color: deepskyblue;
+}
+
+.section3 ul {
+    list-style: none;
+    line-height: 100px;
+    font-size: 30px;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 120px;
+}
+
+.section3-1 {
+    position: relative;
+    background-image: url(images/why.jpg);
+    height: 500px;
+}
+
+.icon {
+    font-size: 60px;
+}
+
+.section3 p {
+    position: relative;
+    bottom: 25px;
+    font-size: 25px;
+}
+
+.section3 div {
+    position: absolute;
+    background-color: white;
+    right: 150px;
+    text-align: center;
+    top: 96px;
+    padding: 20px;
+    width: 900px;
+    height: 250px;
+
+
+}
+
+.section3 h3 {
+    color: deepskyblue;
+    font-size: 35px;
+}
+
+/* page3-css-ends */
+
+/* page4-css-starts */
+.section4 {
+    position: relative;
+    height: 600px;
+    width: 100%;
+}
+
+.section4 h2 {
+    font-size: 50px;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    padding: 20px;
+}
+
+.section4 span {
+    color: deepskyblue;
+    font-size: 50px;
+    left: 50px;
+    top: 100px;
+}
+
+.section4 button {
+    position: absolute;
+    width: 160px;
+    height: 45px;
+    top: 380px;
+    border-radius: 30px;
+    border-width: 4px;
+    left: 60px;
+    border-color: deepskyblue;
+    cursor: pointer;
+}
+
+.section4 img {
+    position: absolute;
+    left: 990px;
+    height: 420px;
+    width: 470px;
+    /* bottom: -243px; */
+    top: 63px;
+}
+
+.section4 p {
+    position: absolute;
+    margin-top: 195px;
+    margin-left: 60px;
+    font-size: 25px;
+}
+
+/* page4-css-ends */
+
+/* page5-css-starts */
+.section5 {
+    position: absolute;
+    background-color: deepskyblue;
+    width: 99%;
+    height: 800px;
+}
+
+.section5 h2 {
+    position: relative;
+    top: 60px;
+    font-size: 50px;
+    margin-left: 120px;
+}
+
+.section5 span {
+    color: white;
+}
+
+.section5 input {
+    position: relative;
+    left: 100px;
+    width: 450px;
+    height: 20px;
+    border-radius: 30px;
+    top: 70px;
+    padding: 20px;
+}
+
+.section5 .message {
+    width: 450px;
+    height: 100px;
+    border-radius: 30px;
+}
+
+.section5 iframe {
+    position: relative;
+    bottom: 450px;
+    height: 430px;
+    width: 570px;
+    left: 780px;
+}
+
+.section5 button {
+    position: relative;
+    top: 80px;
+    left: 225px;
+    width: 180px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    background-color: white;
+    cursor: pointer;
+}
+
+/* page5-css-ends */
+
+/* page6-css-starts */
+.section6 {
+    position: absolute;
+}
+
+.section6 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    top: 3397px;
+    left: 7px;
+    background-color: black;
+    color: white;
+    width: 90%;
+    height: 300px;
+    padding: 69px;
+}
+
+.section6 input {
+    border-radius: 25px;
+    width: 260px;
+    height: 30px;
+    padding: 10px;
+}
+
+.section6 p {
+    color: lightgray;
+    font-size: 20px;
+}
+
+.section6 button {
+    position: relative;
+    top: 30px;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+
+.fa-brands {
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.section6 li {
+    line-height: 40px;
+    font-size: 25px;
+}
+
+.h3-1,
+.h3-2,
+.h3-3,
+.h3-4 {
+    font-size: 35px;
+}
+
+/* page6-css-ends */
+
+/* hover */
+.fa-brands:hover {
+    rotate: 360deg;
+    animation-duration: 5sec linear;
+    transition: 0.9s;
+}
+
+input:hover {
+    box-shadow: 10px 10px 10px;
+}
+
+.section3 li:hover {
+    background-color: black;
+    color: white;
+}
